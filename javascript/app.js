@@ -48,22 +48,8 @@ alert(UserName);
 var x=5;
 var y=7;
 console.log(x+y);
-*/
-var UserName=" Abdulmajjed";
-var FirstName="Adulmajjed"
-var LastName="Al-Najjar"
-var FullName=FirstName+LastName
-// concatination
+*/// concatination
 
-
-console.log(FullName);
-
-
-var UserName= prompt("What's your name");
-console.log(UserName);
-
-document.write('<h2>'+UserName+'</h2>');
-alert('choose between classical Or family one!')
 /*
 == compare the value only
 === compare the value and Datattyoe
@@ -120,24 +106,40 @@ if(CampingType=='Classical'){
 else{
 
     alert( "choose Classical ,Family or Descovering "
-    
-*/
+    */
+//---------------------
+
+/*
+var UserName=" Abdulmajjed";
+var FirstName="Adulmajjed"
+var LastName="Al-Najjar"
+var FullName=FirstName+LastName
 
 
 
-var person=prompt("its Classical or Family?" );
+console.log(FullName);
 
-while(person!=='family'&&person!=='classical'){
-    person= prompt('please choose classical or family');
 
-}
+var UserName= prompt("What's your name?");
+console.log(UserName);
+
+document.write('<h2>'+UserName+'</h2>');
+alert('choose between classical Or family one!')
+
+
+// var person=prompt("its Classical or Family?" );
+
+//  while(person!=='family'&&person!=='classical')
+  var  person= prompt('please choose classical or family');
+
+
    
 
 
  var age = prompt("your old ?");
-console.log(age);
-
-
+;
+ function getage(age){
+console.log(age)
 
  if(age >=18 && age <=18 ){
     alert('Welcome Our Site');
@@ -145,6 +147,75 @@ console.log(age);
     alert('BACK HOME !!  ');
  } else{
     alert('Welcome Our Site :)') }; 
+
+}
+ getage(age);
+
+
+ var numberofpicture =  prompt('number of picture??')
+
+ var numberofpersons = function(){ 
+ while (numberofpicture !== 'classical' && numberofpicture !== 'family'){
+    numberofpicture = prompt('choose family or classical');
+ }
+
+ var numberofpicture = prompt('person !!');
+
+  if (numberofpicture=='classical'){
+    painting = '<img src="pictures/classical.jpg"/>';
+  }else if(pnumberofpicture=='family'){
+    painting = '<img src="pictures/family.jpg"/>';
+      }else{
+      alert("have fun !!");
+     }     
+  
+     console.log(painting);
+
+    
+}
+     var result = "";
+     for (var i = 0; i < numberofpicture; i++) {
+         result += numberofpicture;
+     }
+     
+        
+
+   */
+  
+     
+
+     var UserName=" Abdulmajjed";
+var FirstName="Adulmajjed"
+var LastName="Al-Najjar"
+var FullName=FirstName+LastName
+
+console.log(FullName);
+
+var UserName= prompt("What's your name");
+console.log(UserName);
+
+document.write('<h2>'+UserName+'</h2>');
+alert('choose between classical Or family one!')
+
+var person=prompt("its Classical or Family?" );
+
+while(person!=='family'&&person!=='classical'){
+    person= prompt('please choose classical or family');
+
+}
+
+var age = prompt("whats your age?");
+function getAge(userAge) {
+
+console.log(userAge);
+if(userAge>=18 && userAge<=18 ){
+    alert('Welcome Our Site');
+ } else if( userAge<18 || userAge>39){
+    alert('BACK HOME !!  ');
+ } else{
+    alert('Welcome Our Site :)') }; 
+}
+    getAge(age);
 
  var HowManyPersonYOuAre =prompt('How Many Person You Are??')
 var painting = '';
@@ -158,19 +229,10 @@ var painting = '';
      }     
   
 
-
-     var Persons = prompt('number Of Persons?');
+     var Persons = prompt('number Of picture?');
 
      
      var result = '';
-     
-    //  if (person == 'family') {
-    //      painting = '<img src="pictures/classical.jpg"/> </br>';
-    //  } else if(person == 'classical') {
-    //      painting = '<img src="pictures/family.jpg"/> </br>';
-    //  }
-     
-     
      console.log(painting);
      
      for (var i = 0; i < Persons; i++) {
@@ -180,4 +242,3 @@ var painting = '';
      console.log(result);
      
      document.write(result);
-     

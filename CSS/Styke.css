@@ -1,0 +1,102 @@
+
+/* margin: top right bottom left 0150 
+inline -block you can add width height to the eliment as well as
+
+
+*/ 
+
+body{
+color: silver;
+
+}
+
+header{
+color: rgb(92, 41, 0);
+background-color:  #a6a6a4;
+height: 85px;
+}
+
+header nav{
+    float:right;
+    width: 25%;
+    margin-top: 5px;
+    font-size: 25px;
+   color:rgb(92, 41, 0);
+}
+
+header h1{
+
+    float: left;
+    margin-left: 30px ;
+    font-style:inherit;
+}
+
+header nav ul li{
+    
+display: inline-block;
+margin-left: 15px;
+
+
+}
+header nav ul li a{
+   color: rgb(46, 27, 11);
+    text-decoration:none;
+    font-size: 25px;
+    color: rgb(56, 26, 1);
+    font-style:bold;
+}
+#first{
+
+    background-color: rgba(150, 154, 161, 0.705);
+    width: 35%;
+    height: 100px;
+    text-align: center;
+    margin: 55px 0 15px 35%;
+
+}
+
+#first h3{
+    font-size: 40px;
+    padding-top: 30px;
+    color: rgb(92, 41, 0);
+}
+#first p{
+
+    font-size: 50px;
+    color: rgba(5, 2, 0, 0.76);
+}
+#second{
+    color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 30px;
+    display:-webkit-inline-box;
+
+}
+.image-container{
+    text-align:center ;
+    display: inline-block;
+    height:  450;
+    width: 30%;
+    margin-left: 30px;
+}
+.image-container img{
+    margin-bottom: 20px;
+    height: 90%;
+   
+}
+footer{
+    height: 100px;
+    color: rgb(124, 16, 4);
+    background-color: rgba(201, 201, 201, 0.87);
+
+}
+footer p{
+    font-size: 20px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 100px;
+      font-weight: 800;
+}
+
+
